@@ -44,3 +44,16 @@ class Solution:
 
                 
 #Using HashMap Method:
+
+def twoSum(self, nums, target):
+    complementMap=dict()
+    for i in range(len(nums)):
+        num = nums[i]
+        complement = target - num
+        if num in complementMap:
+            return [complementMap[num], i]
+        else:
+            complementMap[complement] = i
+#twoSum(0,nums=[2,7,11,15],target = 9)
+twoSum(0,nums = [3,2,4], target = 6)
+#twoSum(0,nums = [3,3], target = 6)
