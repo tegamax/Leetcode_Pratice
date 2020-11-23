@@ -25,6 +25,7 @@ Constraints:
 1 <= nums.length <= 1000
 -10^6 <= nums[i] <= 10^6
 
+********************************************************************
 
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
@@ -37,3 +38,16 @@ class Solution:
         #while range(len(nums))>1:
           #  for i in range nums:
              #   sums = 
+
+***************************
+import fileinput
+import sys
+
+data = []
+
+for line in fileinput.input():
+  if line not in data:
+    data.append(line)
+
+for d in data:
+  sys.stdout.write(d)
