@@ -15,4 +15,4 @@
 ### Hash Map
 |  Id | Name | Difficulty | Comments |
 | ---: | --- | :---: | --- |
-|  448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/running-sum-of-1d-array/ "Find All Numbers Disappeared in an Array"), [Solution](https://github.com/tegamax/Leetcode_Pratice/blob/tega_branch/Hash_Table/Find_All_Numbers_Disappeared_in_an_Array.py/ "Solution")| ★ |  |
+|  448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/ "Find All Numbers Disappeared in an Array"), [Solution](https://github.com/tegamax/Leetcode_Pratice/blob/tega_branch/Hash_Table/Find_All_Numbers_Disappeared_in_an_Array.py/ "Solution")| ★ |  |
